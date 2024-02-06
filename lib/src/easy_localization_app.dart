@@ -4,7 +4,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:easy_localization/src/easy_localization_controller.dart';
 import 'package:easy_logger/easy_logger.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
+// import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'asset_loader.dart';
 import 'localization.dart';
@@ -185,9 +185,9 @@ class _EasyLocalizationProvider extends InheritedWidget {
   /// ```
   List<LocalizationsDelegate> get delegates => [
         delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
+        // GlobalMaterialLocalizations.delegate,
+        // GlobalWidgetsLocalizations.delegate,
+        // GlobalCupertinoLocalizations.delegate,
       ];
 
   /// Get List of supported locales
